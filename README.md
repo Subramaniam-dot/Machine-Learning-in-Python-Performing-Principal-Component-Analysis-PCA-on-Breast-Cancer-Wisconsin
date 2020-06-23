@@ -1,5 +1,14 @@
 # Machine-Learning-in-Python-Performing-Principal-Component-Analysis-PCA-on-Breast-Cancer-Wisconsin
 
+Given a collection of points in two, three, or higher dimensional space, a "best fitting" line can be defined as one that minimizes the average squared distance from a point to the line. The next best-fitting line can be similarly chosen from directions perpendicular to the first. Repeating this process yields an orthogonal basis in which different individual dimensions of the data are uncorrelated. These basis vectors are called principal components, and several related procedures principal component analysis (PCA).
+
+PCA is mostly used as a tool in exploratory data analysis and for making predictive models. It is often used to visualize genetic distance and relatedness between populations. PCA is either done by singular value decomposition of a design matrix or by doing the following 2 steps:
+
+calculating the data covariance (or correlation) matrix of the original data
+performing eigenvalue decomposition on the covariance matrix.
+
+For More info check out Wikipedia
+
 ## Table of Contents:
 1. Load Breast Cancer Wisconsin Diagnostic data set
 2. Assigning Input (X) and Output (Y) variables
@@ -67,6 +76,6 @@ From Sklearn import the dataset using load_breast_cancer()
 1. https://www.researchgate.net/post/Is_it_necessary_to_normalize_data_before_performing_principle_component_analysis
 2. https://ro-che.info/articles/2017-12-11-pca-explained-variance#:~:text=The%20fraction%20of%20variance%20explained,divide%20by%20the%20total%20variance.
 3. https://www.ibm.com/support/knowledgecenter/SSLVMB_23.0.0/spss/tutorials/fac_cars_tve.html
-
+4. https://en.wikipedia.org/wiki/Principal_component_analysis
 
 
