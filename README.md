@@ -25,10 +25,12 @@ From Sklearn import the dataset using load_breast_cancer()
 ## Perform PCA analysis:
 - define the number of PC to be 3.
 - Compute and retrieve the scores values
+
 ![](https://github.com/Subramaniam-dot/Machine-Learning-in-Python-Performing-Principal-Component-Analysis-PCA-on-Breast-Cancer-Wisconsin/raw/master/imag2.1.JPG)
 
 - Retrieve the loadings values
-[]()
+
+![](https://github.com/Subramaniam-dot/Machine-Learning-in-Python-Performing-Principal-Component-Analysis-PCA-on-Breast-Cancer-Wisconsin/raw/master/imag2.2.JPG)
 
 ## Explained variance for each PC:
 
@@ -36,24 +38,30 @@ From Sklearn import the dataset using load_breast_cancer()
 - The Cumulative variance  gives the explained variance accounted for by the first n components. For example, the cumulative  for the second component is the sum of the explained variance for the first and second components.
 - Prepare the explained variance and cumulative variance
 - Combining the dataframe of PC, explained variance and cumulative variance.
-[]()
+
+![](https://github.com/Subramaniam-dot/Machine-Learning-in-Python-Performing-Principal-Component-Analysis-PCA-on-Breast-Cancer-Wisconsin/raw/master/imag2.3.JPG)
 
 ## Scree Plot:
 
 ### Bar Plot of Explained Variance Vs PC:
-[]()
+
+![](https://github.com/Subramaniam-dot/Machine-Learning-in-Python-Performing-Principal-Component-Analysis-PCA-on-Breast-Cancer-Wisconsin/raw/master/newplot.png)
 
 ### Combined Plot of Explained Variance, Cumulative Variance Vs PC:
-[]()
+
+![](https://github.com/Subramaniam-dot/Machine-Learning-in-Python-Performing-Principal-Component-Analysis-PCA-on-Breast-Cancer-Wisconsin/raw/master/newplot%20(1).png)
 
 ### Seperate Scatter plot for Cumulative Variance Vs PC and Explained Variance Vs PC:
-[]()
+
+![](https://github.com/Subramaniam-dot/Machine-Learning-in-Python-Performing-Principal-Component-Analysis-PCA-on-Breast-Cancer-Wisconsin/raw/master/newplot%20(2).png)
 
 ### 3D Scatter Plot:
-[]()
+
+![](https://github.com/Subramaniam-dot/Machine-Learning-in-Python-Performing-Principal-Component-Analysis-PCA-on-Breast-Cancer-Wisconsin/raw/master/newplot%20(3).png)
 
 ### Loadings Plot:
-[]()
+
+![](https://github.com/Subramaniam-dot/Machine-Learning-in-Python-Performing-Principal-Component-Analysis-PCA-on-Breast-Cancer-Wisconsin/raw/master/newplot%20(4).png)
 
 #### Reference:
 1. https://www.researchgate.net/post/Is_it_necessary_to_normalize_data_before_performing_principle_component_analysis
