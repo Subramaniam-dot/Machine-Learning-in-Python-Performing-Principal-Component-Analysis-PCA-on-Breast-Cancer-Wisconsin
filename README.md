@@ -25,7 +25,7 @@ From Sklearn import the dataset using load_breast_cancer()
 ## Perform PCA analysis:
 - define the number of PC to be 3.
 - Compute and retrieve the scores values
-[]()
+![](https://github.com/Subramaniam-dot/Machine-Learning-in-Python-Performing-Principal-Component-Analysis-PCA-on-Breast-Cancer-Wisconsin/raw/master/imag2.1.JPG)
 
 - Retrieve the loadings values
 []()
